@@ -3,18 +3,14 @@
    <head>
       <style>
          body {background-color: lightgray;}
-         h1   {
+         h1 {
          color: darkgray;
          font-family: verdana;
          text-align: center;
          }
-         p    {
+         p {
          color: darkgreen;
          font-family:courier;
-         }
-         img{
-         width: 128px;
-         height: 128px;
          }
          table {
          border-radius:15px;
@@ -22,14 +18,20 @@
          border:2px solid lightgreen;
          background-color:white;
          }
-         th, td{
+         th, td {
          border-radius:15px;
-         color: gray;
+         color: darkgray;
          padding: 10px;
          border:2px solid lightgreen;
          background-color:white;
          }
-         div{
+         td {
+         font-family:courier;
+         }
+         a {
+         color: red;
+         }
+         div {
          background-color:white;
          padding:10px;
          border-style:solid;
@@ -44,7 +46,11 @@
          margin-right: auto;
          border-style: inset;
          border-width: 2px;
-         } 
+         }  
+         img {
+         width: 128px;
+         height: 128px;
+         }
       </style>
    </head>
    <body>
@@ -69,8 +75,12 @@
             <th style = "font-family:verdana;">Link Descriptions</th>
          </tr>
          <tr>
-            <td>(Page)</td>
-            <td>(Page description)</td>
+            <td><a href = "url">My Family</a></td>
+            <td>A page dedicated to descibing my wonderful family</td>
+         </tr>
+          <tr>
+            <td><a href = "https://trollofalltrolls.github.io/">Back</a></td>
+            <td>Go back to the previous page</td>
          </tr>
       </table>
    </body>
