@@ -66,14 +66,14 @@
          
          <!--Simple introduction paragraph-->
          <p>This page functions as a hub to link you to other pages that go into detail about me and what I enjoy. Click on one of the links below to read about me.</p>
-    
+         
+         <br>
       
-      <hr style = "color: white">
-      
-      <!--Link Box-->
+      <!--Favorite Things Box-->
+      <center>
       <table>
          <tr>
-            <th style = "font-family:verdana;">Link</th>
+            <th style = "font-family:verdana;">Page</th>
             <th style = "font-family:verdana;">Page Description</th>
          </tr>
          
@@ -107,7 +107,21 @@
             <td>A page that goes into detail about my favorite Battle Bots team.</td>
          </tr>
       </table>
-      <p>s</p>
-        </div>
+      </center>
+      </div>
+      
+      <hr style = "color: white">
+      
+      <!--Link Box-->
+      <table style = "float:right;">
+         <tr>
+            <th style = "font-family:verdana;">Link</th>
+            <th style = "font-family:verdana;">Link Description</th>
+         </tr>
+          <tr>
+            <td><a href = "https://trollofalltrolls.github.io/">Back</a></td>
+            <td>Go back to the previous page</td>
+         </tr>
+      </table>
    </body>
 </html>
