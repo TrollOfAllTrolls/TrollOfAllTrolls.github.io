@@ -3,12 +3,12 @@
    <head>
       <style>
          body {background-color: lightgray;}
-         h1   {
+         h1 {
          color: darkgray;
          font-family: verdana;
          text-align: center;
          }
-         p    {
+         p {
          color: darkgreen;
          font-family:courier;
          }
@@ -18,14 +18,20 @@
          border:2px solid lightgreen;
          background-color:white;
          }
-         th, td{
+         th, td {
          border-radius:15px;
-         color: gray;
+         color: darkgray;
          padding: 10px;
          border:2px solid lightgreen;
          background-color:white;
          }
-         div{
+         td {
+         font-family:courier;
+         }
+         a {
+         color: red;
+         }
+         div {
          background-color:white;
          padding:10px;
          border-style:solid;
@@ -44,8 +50,8 @@
       </style>
    </head>
    <body>
+      <!-- use Divs to create the fancy boxes-->
       <div>
-         <!--The <br>'s are there to indent the paragraphs-->
          <div>
             <h1>Jack's Website</h1>
          </div>
@@ -55,12 +61,12 @@
       <hr style = "color: white">
       <table>
          <tr>
-            <th style = "font-family:verdana;">Links</th>
-            <th style = "font-family:verdana;">Page Descriptions</th>
+            <th style = "font-family:verdana;">Link</th>
+            <th style = "font-family:verdana;">Page Description</th>
          </tr>
          <tr>
-            <td>(Page)</td>
-            <td>(Page description)</td>
+            <td><a href = "https://trollofalltrolls.github.io/AboutMe">About Me</a></td>
+            <td>A brief read about who I am.</td>
          </tr>
       </table>
    </body>
