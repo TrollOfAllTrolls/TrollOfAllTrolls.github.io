@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
+   <!--Data for formatting the website-->
       <style>
          body {background-color: lightgray;}
          h1 {
@@ -46,27 +47,53 @@
          margin-right: auto;
          border-style: inset;
          border-width: 2px;
-         } 
+         }  
+         img {
+         width: 128px;
+         height: 128px;
+         }
       </style>
    </head>
    <body>
-      <!-- use Divs to create the fancy boxes-->
+      <!--use Divs to create the fancy boxes-->
+      
+      <!--Main Container-->
       <div>
+         <!--Header Container-->
          <div>
             <h1>Jack's Website</h1>
          </div>
-         <!--Fill this table with website links-->
+         
+         <!--Simple introduction paragraph-->
          <p>Hello, and welcome to my website. As of now, it is not much, but feel free to explore it</p>
       </div>
+      
       <hr style = "color: white">
+      
+      <!--Link Box-->
       <table>
          <tr>
             <th style = "font-family:verdana;">Link</th>
             <th style = "font-family:verdana;">Page Description</th>
+            <th style = "font-family:verdana;">Links on next page</th>
          </tr>
+         <!--About Me page-->
          <tr>
             <td><a href = "https://trollofalltrolls.github.io/AboutMe">About Me</a></td>
             <td>A brief read about who I am.</td>
+            <td>Family Bio.</td>
+         </tr>
+         <!--Personal Opinions page-->
+         <tr>
+            <td><a href = "https://trollofalltrolls.github.io/PersonalOpinions">Personal Opinions</a></td>
+            <td>A hub page leading to what I enjoy.</td>
+            <td>Pages that describe what I like.</td>
+         </tr>
+         <!--Future Plans page-->
+         <tr>
+            <td><a href = "https://trollofalltrolls.github.io/FuturePlans">Future Plans</a></td>
+            <td>A page describing what I plan to do with my future.</td>
+            <td>Nothing (For now).</td>
          </tr>
       </table>
    </body>
