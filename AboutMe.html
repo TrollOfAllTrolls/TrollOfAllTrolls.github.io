@@ -1,14 +1,77 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-<!--A lot of this stuff is unfinished. It will be my About Me page.-->
-<h1 style = "text-align:center;">About me</h1>
-<p>This is a placeholder.</p>
-<img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Pic.png?raw=true" alt="HTML5 Icon" style="width:128px;height:128px;">
-<br>
-<a href = "url">My family (page not made yet).</a>
-</body>
+   <head>
+      <style>
+         body {background-color: lightgray;}
+         h1   {
+         color: darkgray;
+         font-family: verdana;
+         text-align: center;
+         }
+         p    {
+         color: darkgreen;
+         font-family:courier;
+         }
+         img{
+         width: 128px;
+         height: 128px;
+         }
+         table {
+         border-radius:15px;
+         float: right;
+         border:2px solid lightgreen;
+         background-color:white;
+         }
+         th, td{
+         border-radius:15px;
+         color: gray;
+         padding: 10px;
+         border:2px solid lightgreen;
+         background-color:white;
+         }
+         div{
+         background-color:white;
+         padding:10px;
+         border-style:solid;
+         border-color:lightgreen;
+         border-radius:25px;
+         }
+         hr { 
+         display: block;
+         margin-top: 1em;
+         margin-bottom: 1em;
+         margin-left: auto;
+         margin-right: auto;
+         border-style: inset;
+         border-width: 2px;
+         } 
+      </style>
+   </head>
+   <body>
+      <!-- use Divs to create the fancy boxes-->
+      <div>
+         <div>
+            <h1>About Me</h1>
+         </div>
+         
+         <p>My name is Jack Stevenson. My date of birth was on December 17, 2002 and I am 14 years of age as of September 2017. I am a freshman who goes to Canyon Crest Academy. I generally enjoy tinering around with programs and applications online, as well as socializing with some of my closer friends.</p>
+         <br>
+         <br>
+         <!--Use center tags to center images-->
+         <center><img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Pic.png?raw=true" alt="HTML5 Icon"> </center>
+         <p style = "text-align:center;">Due to privacy reasons, I am going to use this icon to represent me instead of an actual picture of myself.</p>
+      </div>
+      <hr style = "color: white">
+      <!--Fill this table with website links-->
+      <table>
+         <tr>
+            <th style = "font-family:verdana;">Links</th>
+            <th style = "font-family:verdana;">Link Descriptions</th>
+         </tr>
+         <tr>
+            <td>(Page)</td>
+            <td>(Page description)</td>
+         </tr>
+      </table>
+   </body>
 </html>
