@@ -1,140 +1,52 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <!--Data for formatting the website-->
-    <style>
-        body {
-            background-color: lightgray;
-        }
-        
-        h1 {
-            color: darkgray;
-            font-family: verdana;
-            text-align: center;
-        }
-        
-        p {
-            color: darkgreen;
-            font-family: courier;
-        }
-        
-        table {
-            border-radius: 15px;
-            border: 2px solid lightgreen;
-            background-color: white;
-        }
-        
-        th,
-        td {
-            border-radius: 15px;
-            color: darkgray;
-            padding: 10px;
-            border: 2px solid lightgreen;
-            background-color: white;
-        }
-        
-        td {
-            font-family: courier;
-        }
-        
-        a {
-            color: red;
-        }
-        
-        div {
-            background-color: white;
-            padding: 10px;
-            border-style: solid;
-            border-color: lightgreen;
-            border-radius: 25px;
-        }
-        
-        hr {
-            display: block;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            margin-left: auto;
-            margin-right: auto;
-            border-style: inset;
-            border-width: 2px;
-        }
-        
-        img {
-            width: 128px;
-            height: 128px;
-            border-style: solid;
-            border-color: gray;
-            border-radius: 20px;
-        }
-    </style>
-</head>
-
-<body>
-    <!--use Divs to create the fancy boxes-->
-
-    <!--Main Container-->
-    <div>
-        <!--Header Container-->
-        <div>
+   <head>
+      <!--Data for formatting the website-->
+      <style>
+         <title>About Me</title>
+      </style>
+      <link rel="stylesheet" type="text/css" href="https://trollofalltrolls.github.io/SiteFormat.css">
+   </head>
+   <body>
+      <!--Link Bar-->
+      <ul>
+         <!--Home page-->
+         <li><a href="https://trollofalltrolls.github.io/">Home</a></li>
+         <li class="dropdown">
+            <!--About Me page-->
+            <a class = "active" href="https://trollofalltrolls.github.io/AboutMe" class="dropbtn">About Me</a>
+            <div class="dropdown-content">
+               <a href="https://trollofalltrolls.github.io/MyFamily">My Family</a>
+            </div>
+         </li>
+         <li class="dropdown">
+            <!--Personal Opinions page-->
+            <a href="https://trollofalltrolls.github.io/PersonalOpinions" class="dropbtn">Personal Opinions</a>
+            <div class="dropdown-content">
+               <a href="https://trollofalltrolls.github.io/Foods">Favorite Foods</a>
+               <a href="https://trollofalltrolls.github.io/Movie">Favorite Movie</a>
+               <a href="https://trollofalltrolls.github.io/Hobby">Favorite Hobby</a>
+               <a href="https://trollofalltrolls.github.io/Book">Favorite Book</a>
+               <a href="https://trollofalltrolls.github.io/BattleBots">Favorite BattleBots Team</a>
+            </div>
+         </li>
+         <!--Future Plans page-->
+         <li><a href="https://trollofalltrolls.github.io/FuturePlans">Future Plans</a></li>
+      </ul>
+      <br>
+      <!--use Divs to create the fancy boxes-->
+      <!--Main Container-->
+      <div>
+         <!--Header Container-->
+         <div>
             <h1>About Me</h1>
-        </div>
-
-        <!--Paragraph about myself-->
-        <p>My name is Jack Stevenson. My date of birth was on December 17, 2002 and I am 14 years of age as of September 2017. I am a freshman who goes to Canyon Crest Academy. I generally enjoy tinering around with programs and applications online, as well as socializing with some of my closer friends. I made this website for a school project in my Computer Science class, but I plan on updating it once the class ends.</p>
-
-        <br>
-
-        <!--Use center tags to center images-->
-        <center><img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Pic.png?raw=true" alt="HTML5 Icon"> </center>
-        <p style="text-align:center;">Due to privacy reasons, I am going to use this icon to represent me instead of an actual picture of myself.</p>
-
-        <!--Subpage Box-->
-        <center>
-            <table>
-                <tr>
-                    <th style="font-family:verdana;">Subpage</th>
-                    <th style="font-family:verdana;">Subpage Description</th>
-                </tr>
-                <tr>
-                    <td><a href="https://trollofalltrolls.github.io/MyFamily">My Family</a></td>
-                    <td>A page dedicated to descibing my wonderful family</td>
-                </tr>
-            </table>
-        </center>
-    </div>
-
-    <hr style="color: white">
-
-    <!--Link Box-->
-    <table style="float:right;">
-        <tr>
-            <th style="font-family:verdana;">Link</th>
-            <th style="font-family:verdana;">Page Description</th>
-            <th style="font-family:verdana;">Links on next page</th>
-        </tr>
-
-        <!--Personal Opinions page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io/PersonalOpinions">Personal Opinions</a></td>
-            <td>A hub page leading to what I enjoy.</td>
-            <td>Pages that describe what I like.</td>
-        </tr>
-
-        <!--Future Plans page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io/FuturePlans">Future Plans</a></td>
-            <td>A page describing what I plan to do with my future.</td>
-            <td>Nothing (For now).</td>
-        </tr>
-
-        <!--Home page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io">Back</a></td>
-            <td>Go back to the home page.</td>
-            <td>All the pages on this site.</td>
-        </tr>
-    </table>
-</body>
-
+         </div>
+         <!--Paragraph about myself-->
+         <p>My name is Jack Stevenson. My date of birth was on December 17, 2002 and I am 14 years of age as of September 2017. I am a freshman who goes to Canyon Crest Academy. I generally enjoy tinering around with programs and applications online, as well as socializing with some of my closer friends. I made this website for a school project in my Computer Science class, but I plan on updating it once the class ends.</p>
+         <br>
+         <!--Use center tags to center images-->
+         <center><img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Pic.png?raw=true" alt="HTML5 Icon"> </center>
+         <p style="text-align:center;">Due to privacy reasons, I am going to use this icon to represent me instead of an actual picture of myself.</p>
+      </div>
+   </body>
 </html>
