@@ -45,8 +45,8 @@ body {background-color: lightgray;}
          border-width: 2px;
          }  
          img {
-         width: 128px;
-         height: 128px;
+         border:2px solid gray;
+         border-radius:15px;
          }
          ul {
          list-style-type: none;
