@@ -1,118 +1,46 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <!--Data for formatting the website-->
-    <style>
-        body {
-            background-color: lightgray;
-        }
-        
-        h1 {
-            color: darkgray;
-            font-family: verdana;
-            text-align: center;
-        }
-        
-        p {
-            color: darkgreen;
-            font-family: courier;
-        }
-        
-        table {
-            border-radius: 15px;
-            float: right;
-            border: 2px solid lightgreen;
-            background-color: white;
-        }
-        
-        th,
-        td {
-            border-radius: 15px;
-            color: darkgray;
-            padding: 10px;
-            border: 2px solid lightgreen;
-            background-color: white;
-        }
-        
-        td {
-            font-family: courier;
-        }
-        
-        a {
-            color: red;
-        }
-        
-        div {
-            background-color: white;
-            padding: 10px;
-            border-style: solid;
-            border-color: lightgreen;
-            border-radius: 25px;
-        }
-        
-        hr {
-            display: block;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            margin-left: auto;
-            margin-right: auto;
-            border-style: inset;
-            border-width: 2px;
-        }
-        
-        img {
-            width: 128px;
-            height: 128px;
-        }
-    </style>
-</head>
-
-<body>
-    <!--use Divs to create the fancy boxes-->
-
-    <!--Main Container-->
-    <div>
-        <!--Header Container-->
-        <div>
+   <head>
+      <!--Data for formatting the website-->
+      <style>
+         <title>Home Page</title>
+      </style>
+      <link rel="stylesheet" type = "text/css" href="https://trollofalltrolls.github.io/SiteFormat.css">
+   </head>
+   <body>
+      <!--Link Bar-->
+      <ul>
+         <!--Home page-->
+         <li><a href="https://trollofalltrolls.github.io/">Home</a></li>
+         <li class="dropdown">
+            <!--About Me page-->
+            <a href="https://trollofalltrolls.github.io/AboutMe" class="dropbtn">About Me</a>
+            <div class="dropdown-content">
+               <a href="https://trollofalltrolls.github.io/MyFamily">My Family</a>
+            </div>
+         </li>
+         <li class="dropdown">
+            <!--Personal Opinions page-->
+            <a href="https://trollofalltrolls.github.io/PersonalOpinions" class="dropbtn">Personal Opinions</a>
+            <div class="dropdown-content">
+               <a href="https://trollofalltrolls.github.io/Movie">Favorite Movie</a>
+               <a href="https://trollofalltrolls.github.io/Hobby">Favorite Hobby</a>
+               <a href="https://trollofalltrolls.github.io/Book">Favorite Book</a>
+            </div>
+         </li>
+         <!--Future Plans page-->
+         <li><a class = "active" href="https://trollofalltrolls.github.io/FuturePlans">Future Plans</a></li>
+      </ul>
+      <br>
+      <!--use Divs to create the fancy boxes-->
+      <!--Main Container-->
+      <div>
+         <!--Header Container-->
+         <div>
             <h1>Future Plans</h1>
-        </div>
-
-        <!--Paragraph about my future plans-->
-        <p>As of right now, I'm not entirely sure what I would like to do with my future. From where I want to live to who I want to be with, I'm a bit lost in terms of where I would like to be in 10 years (From 2017). However, one thing I do know is that I would like to obtain a job involving the programming and or construction of devices that impact the world.</p>
-    </div>
-
-    <hr style="color: white">
-
-    <!--Link Box-->
-    <table>
-        <tr>
-            <th style="font-family:verdana;">Link</th>
-            <th style="font-family:verdana;">Page Description</th>
-            <th style="font-family:verdana;">Links on next page</th>
-        </tr>
-
-        <!--About Me page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io/AboutMe">About Me</a></td>
-            <td>A brief read about who I am.</td>
-            <td>Family Bio.</td>
-        </tr>
-
-        <!--Personal Opinions page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io/PersonalOpinions">Personal Opinions</a></td>
-            <td>A hub page leading to what I enjoy.</td>
-            <td>Pages that describe what I like.</td>
-        </tr>
-
-        <!--Home page-->
-        <tr>
-            <td><a href="https://trollofalltrolls.github.io">Back</a></td>
-            <td>Go back to the home page.</td>
-            <td>All the pages on this site.</td>
-        </tr>
-    </table>
-</body>
-
+         </div>
+         <!--Paragraph about my future plans-->
+         <p>As of right now, I'm not entirely sure what I would like to do with my future. From where I want to live to who I want to be with, I'm a bit lost in terms of where I would like to be in 10 years (From 2017). However, one thing I do know is that I would like to obtain a job involving the programming and or construction of devices that impact the world.</p>
+      </div>
+   </body>
 </html>
