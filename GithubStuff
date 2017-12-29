@@ -5,7 +5,7 @@
       <style>
          <title>My Github Projects</title>
       </style>
-      <link rel="stylesheet" type="text/css" href="https://trollofalltrolls.github.io/SiteFormat.css">
+      <link rel="stylesheet" type = "text/css" href="https://trollofalltrolls.github.io/SiteFormat.css">
    </head>
    <body>
       <!--Link Bar-->
@@ -17,7 +17,6 @@
             <a href="https://trollofalltrolls.github.io/AboutMe" class="dropbtn">About Me</a>
             <div class="dropdown-content">
                <a href="https://trollofalltrolls.github.io/MyFamily">My Family</a>
-               <a class = "active" href="https://trollofalltrolls.github.io/GithubStuff">My Github Projects</a>
             </div>
          </li>
          <li class="dropdown">
@@ -25,7 +24,7 @@
             <a href="https://trollofalltrolls.github.io/PersonalOpinions" class="dropbtn">Personal Opinions</a>
             <div class="dropdown-content">
                <a href="https://trollofalltrolls.github.io/Movie">Favorite Movie</a>
-               <a href="https://trollofalltrolls.github.io/Hobby">Favorite Hobby</a>
+               <a class = "active" href="https://trollofalltrolls.github.io/Hobby">Favorite Hobby</a>
                <a href="https://trollofalltrolls.github.io/Book">Favorite Book</a>
             </div>
          </li>
@@ -38,14 +37,22 @@
       <div>
          <!--Header Container-->
          <div>
-            <h1>About Me</h1>
+            <h1>Favorite Hobby</h1>
          </div>
-         <!--Paragraph about myself-->
-         <p>My name is Jack Stevenson. My date of birth was on December 17, 2002 and I am 14 years of age as of September 2017. I am a freshman who goes to Canyon Crest Academy. I generally enjoy tinering around with programs and applications online, as well as socializing with some of my closer friends. I have actually been programming in Java for over 4 years now, so I usually pick up new programming languages with ease. I made this website for a school project in my Computer Science class, but I plan on updating it once the class ends.</p>
+         <!--Paragraph about my favorite hobby-->
+         <p>To be fair, I do many things to pass the time, such as participating in camps and goofing around with friends. However, the one thing that I can say I do most is game on my computing device. I play a variety of games to pass the time when I have nothing else to do, but my two favorite games that I can think of have to be Garry's Mod and Planetside 2. Garry's Mod is a modification of another game (called Half Life 2) that turns the game into a sandbox of sorts, where you can construct and do virtullary anything, as long as it's within the engine's limits. Planetside 2 is a Massively Multiplayer Online FPS (MMOFPS) that takes place in the far future, where you are allowed to take part in a massive scale conflict by joining one of the three playable factions. The game centers around coordination and cooperation through smaller squads of players in order to complete objectives.</p>
+         <!--Some pictures of my creations in Garry's Mod-->
+         <center><img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/FlyingBomb.jpg?raw=true" alt="Image" style = "width:512px; height:288px;"></center>
+         <p style="text-align:center;">A picture of my replica V1 Flying Bomb in Garry's Mod. <a href = "https://gmod.facepunch.com/">Click here to go to the official Garry's Mod website.</a></p>
          <br>
-         <!--Use center tags to center images-->
-         <center><img src="https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Pic.png?raw=true" alt="HTML5 Icon"> </center>
-         <p style="text-align:center;">Due to privacy reasons, I am going to use this icon to represent me instead of an actual picture of myself.</p>
+         <center><img src = "https://github.com/TrollOfAllTrolls/TrollOfAllTrolls.github.io/blob/master/Testing.jpg?raw=true"alt="Image" style = "width:512px; heightL288px;"></center>
+         <p style = "text-align:center;">A picture of me testing my Light Tank's side armor against a rocket.</p>
+         <!--A video demonstrating one of my creations-->
+         <br>
+         <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/f4gK4MDo-Dc" frameborder="0" allowfullscreen></iframe>
+         </center>
+         <p style = "text-align:center">A video showing a test run that I put my RC tank through.</p>
       </div>
    </body>
 </html>
